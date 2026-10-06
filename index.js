@@ -42,6 +42,8 @@ function merge(left,right){
  return result;
 }
 
+module.exports = mergeSort;
+
 
 console.log(mergeSort([3, 3, 1, 2, 1]));
 console.log(mergeSort([8, 3, 7, 4, 2, 6, 1, 5]));
